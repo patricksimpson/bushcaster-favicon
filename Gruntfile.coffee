@@ -6,6 +6,7 @@ module.exports = (grunt) ->
     bushcaster:
       options:
         hashLength: 8
+        noProcess: "*.ico"
       main:
         files: [
           expand: true
