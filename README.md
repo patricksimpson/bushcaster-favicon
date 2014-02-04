@@ -1,7 +1,6 @@
-## Testing Bushcaster (Favicon issue)
+## Testing Bushcaster
 
-Should be set to just run npm install && grunt bushcaster
+Should be set to just run:
 
-Let me know what you find, thanks for checking it out.
+    npm install && grunt bushcaster
 
-P.S. I went ahead an added the favicon hash file in question to the repo, it's currently invalid.
