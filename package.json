@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-bushcaster": "0.0.7"
+    "grunt-bushcaster": "0.0.7",
+    "grunt-string-replace": "~0.2.7"
   }
 }
