@@ -19,7 +19,7 @@ module.exports = (grunt) ->
         files: [
           expand: true
           cwd: "./"
-          src: ["css/mq-base.css", "favicon.ico"]
+          src: ["assets/mq-base.css", "assets/favicon.ico"]
           dest: "./"
         ]
     'string-replace':
