@@ -19,13 +19,13 @@ module.exports = (grunt) ->
         files: [
           expand: true
           cwd: "./"
-          src: ["assets/mq-base.css", "assets/favicon.ico"] #files cache bust. 
+          src: ["assets/mq-base.css", "assets/favicon.ico"] #files to cache bust. 
           dest: "./"
         ]
     'string-replace':
       dist:
         files:
-          'build/': '*.html'  # dest: source
+          'build/': '*.html' # dest: source
       options:
         replacements: grunt.cacheMap
         
