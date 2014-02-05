@@ -1,4 +1,4 @@
-## Testing Bushcaster + String Replace
+## Bushcaster + String Replace
 
 This uses "Bushcaster" For cache busting, and string replace for asset renaming in files.
 
