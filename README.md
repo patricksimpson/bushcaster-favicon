@@ -7,3 +7,4 @@ Should be set to just run:
 
     npm install && grunt bustcache
 
+The build/index.html file will have the replaced (cache busted) filenames. 
