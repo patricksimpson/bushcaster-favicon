@@ -1,7 +1,9 @@
-## Testing Bushcaster (Favicon issue)
+## Testing Bushcaster + String Replace
 
-Should be set to just run npm install && grunt bushcaster
+This uses "Bushcaster" For cache busting, and string replace for asset renaming in files.
 
-Let me know what you find, thanks for checking it out.
+### Setup
+Should be set to just run:
 
-P.S. I went ahead an added the favicon hash file in question to the repo, it's currently invalid.
+    npm install && grunt bustcache
+
