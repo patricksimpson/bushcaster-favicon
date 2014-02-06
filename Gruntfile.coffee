@@ -1,5 +1,7 @@
 module.exports = (grunt) ->
   
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks)
+
   grunt.cacheMap = []
   grunt.initConfig
     pkg: grunt.file.readJSON("package.json")
@@ -29,7 +31,4 @@ module.exports = (grunt) ->
       options:
         replacements: grunt.cacheMap
         
-  grunt.loadNpmTasks "grunt-string-replace"
-  grunt.loadNpmTasks "grunt-bushcaster"
-  
   grunt.registerTask "bustcache", ["bushcaster", "string-replace:dist"]
